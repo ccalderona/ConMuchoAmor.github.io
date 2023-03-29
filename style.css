@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: ComicNeue;
+    src: url(ComicNeue-Regular.ttf);
+}
+body{
+    background-color: #ffb6b9;
+}
+.container{
+    display: flex;
+    font-family: ComicNeue;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+    
+
+}
+.box{
+    width: 160px;
+    height: 20px;
+    border:3px solid rgb(12, 8, 8) ;
+}
+.box_loading{
+    height: 100%;
+    animation: loading 5s;
+    background-color: rgb(17, 13, 13); 
+}
+@keyframes loading{
+    0%{
+        width: 0; 
+    }
+    100%{
+        width: 160px;  
+    }
+}
+h1,
+p {
+    font-size: 5m;
+    font-weight: bold;
+}
+section{
+    display: flex;
+    width: 1000px;
+    height: 430px;
+    margin: auto ;
+}
+section img{
+    border-radius: 20px;
+    background-color: #0d0f09;
+    padding: 3px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+}
+
+.aviso {
+    padding: 30px;
+    text-align: center;
+   
+}
+a{
+    color:#000000;
+    font-family: ComicNeue;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}

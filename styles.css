@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff2e6;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ffb6b9;
+    padding: 25px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #ffb6b9;
+    padding: 20px;
+  }
+  
+  container{
+    width: 75vw;
+    max-width: 900px;
+    min-width: 400px;
+    margin: auto ;
+  }
+  
+  img{
+    margin-top: 20px;
+    padding:5px;
+    background-color: #0e0c0c;
+    width: 40%;
+    border-radius: 20px;
+  }
+  .aviso{
+    background-color: #ffb6b9;
+    padding: 25px;
+  }
+  a:link{
+    padding: 10px;
+  text-decoration: none;
+}
+  a:visited{ 
+    color: #000000;
+  }
